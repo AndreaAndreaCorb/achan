@@ -1,0 +1,118 @@
+head{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100%;
+    background-color: 
+}
+
+header{
+    background-color: #F7EE31;
+    width: 100%;
+} 
+
+#menu{
+font-family: fantasy;
+font-size: 20px;
+background-color: #F7EE31;
+}
+
+body{
+    background-color: black
+}
+.caja1{
+    background-color: white;
+    font-family: fantasy;
+    font-size: 100% ;
+    text-align: center;
+    width: 100%;
+    height: 1250px;
+    float: left;
+    margin-top: 10%;
+    margin-bottom: -100px;
+    border-radius: 10%;
+}
+
+.caja2{
+    background-color: white;
+     font-family: fantasy;
+     font-size: 100% ;
+     width: 100%;
+     height: 700px;
+     float: right;
+     margin-top: 40%;
+ }
+
+ .texto{
+     width: 95%;
+     margin-left: 2%;
+     margin-bottom: 10%;
+ }
+
+ .texto2{
+    width: 95%;
+    margin-left: 2%;
+    margin-bottom: 10%;
+    margin-top: -500px;
+}
+
+ .card{
+     font-family: fantasy;
+     margin-top: 10%;
+     margin-bottom: 0%;
+     margin-left: 20%;
+ }
+
+
+
+ footer{
+    background-image: image-set(img/1.png);
+    width: 100%;
+    height: 150px;
+    margin-top: 90px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.slider {
+    width: 100%;
+    height: 700px ;
+	margin: auto;
+    overflow: hidden;
+    margin-top: -52px;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation: cambio 10s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: -50%;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -150%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -250%;}
+	
+	75% {margin-left: -270%;}
+	100% {margin-left: -300%;}
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color:;
+    margin-bottom: 1%;
+    }
